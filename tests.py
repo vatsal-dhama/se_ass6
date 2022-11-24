@@ -4,7 +4,7 @@ import unittest
 
 from program import modulo
 
-class TestSum(unittest.TestCase):
+class TestModulo(unittest.TestCase):
 	def test_1(self):
 		a_1 = 1
 		b_1 = 2
