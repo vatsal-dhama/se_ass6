@@ -16,6 +16,10 @@ pipeline {
             steps {
                 sh "chmod u+x tests.py"
                 sh "./tests.py"
+            }
+        }
+    stage('Test Code wrong') {
+            steps {
                 sh "chmod u+x testwrong.py"
                 sh "./testwrong.py"
             }
