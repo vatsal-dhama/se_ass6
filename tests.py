@@ -2,7 +2,7 @@
 # Test case for adding two numbers
 import unittest
 
-from program import modulo
+from code import modulo
 
 class TestModulo(unittest.TestCase):
 	def test_1(self):
